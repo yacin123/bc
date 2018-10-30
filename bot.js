@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 const adminprefix = "-";
-const devs = ['ID حقتك'];
+const devs = ['483686172221243402'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -32,4 +32,4 @@ if (message.content.startsWith(adminprefix + 'setT')) {
 }
 });
 
-client.login("YOUR TOKEN HERE");
+client.login("NDgzNjg2MTcyMjIxMjQzNDAy.DrksuQ.rx1Lvhpsisiv7SYKiPhn0bPwzWc");
